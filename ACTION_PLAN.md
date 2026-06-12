@@ -37,8 +37,8 @@ The step-by-step plan to build the Despedida Henrique Elvas · Madrid site.
 - [x] `README.md`, `ACTION_PLAN.md`, `SOURCES.md`, `DECISIONS.md`, `TODO.md`.
 
 ## Phase 6 — Ship it (GitHub)
-- [ ] `git init`, structured commits as work progresses.
-- [ ] Create the GitHub repo on the owner's account.
-- [ ] Push.
-- [ ] Enable **GitHub Pages** and verify the site is live.
-- [ ] Deliver repo link + live site link.
+- [x] `git init`, structured commits as work progresses.
+- [x] Create the GitHub repo on the owner's account.
+- [x] Push.
+- [x] Enable **GitHub Pages** and verify the site is live.
+- [x] Deliver repo link + live site link.

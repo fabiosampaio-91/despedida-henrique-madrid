@@ -2,7 +2,7 @@
 
 An **AI-native bachelor-party ("despedida de solteiro") website** for **Henrique Elvas** — a single-page, party-themed weekend battle plan for Madrid, built and fact-checked with AI.
 
-> **Live site:** _added after deploy below_
+> **🔴 Live site:** https://fabiosampaio-91.github.io/despedida-henrique-madrid/
 > **The plan:** Friday (arrive → explore → rooftop dinner → bars) and Saturday (recovery brunch → group-voted activity → rooftop → late dinner-club → clubs).
 
 ---
