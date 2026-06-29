@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-PT">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Despedida Henrique Elvas · Madrid 🎉</title>
-<meta name="description" content="The full weekend battle plan for Henrique Elvas's bachelor party in Madrid — rooftops, bars, clubs, activities & more. Every link verified." />
+<meta name="description" content="O plano completo do fim de semana da despedida de solteiro do Henrique Elvas em Madrid: rooftops, bares, discotecas, atividades e t-shirts. Vota tudo no formulário." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="assets/styles.css" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍾</text></svg>" />
 </head>
 <body>
@@ -17,10 +17,11 @@
 <header class="nav" id="nav">
   <a href="#top" class="nav__brand">🍾 EL&nbsp;DESPEDIDA</a>
   <nav class="nav__links">
-    <a href="#friday">Friday</a>
-    <a href="#saturday">Saturday</a>
-    <a href="#vote">Vote</a>
-    <a href="#clubs">Clubs</a>
+    <a href="#friday">Sexta</a>
+    <a href="#saturday">Sábado</a>
+    <a href="#votacao">Votação</a>
+    <a href="#clubs">Discotecas</a>
+    <a href="#tshirts">T-shirts</a>
     <a href="#info">Info</a>
   </nav>
 </header>
@@ -29,15 +30,15 @@
 <section class="hero" id="top">
   <div class="hero__confetti" id="confetti"></div>
   <div class="hero__inner">
-    <p class="hero__kicker">Despedida de Solteiro · 2 days · 0 chill</p>
+    <p class="hero__kicker">Despedida de Solteiro · 2 dias · 0 sossego</p>
     <h1 class="hero__title">HENRIQUE<br><span>ELVAS</span></h1>
-    <p class="hero__sub">is getting married. So first — we break Madrid. 🇪🇸</p>
+    <p class="hero__sub">vai casar. Por isso, primeiro, partimos Madrid ao meio. 🇪🇸</p>
     <div class="hero__meta">
-      <span>🌆 Madrid</span><span>🗓️ Fri → Sat</span><span>🍻 The crew</span>
+      <span>🌆 Madrid</span><span>🗓️ Sex → Sáb</span><span>🍻 O grupo</span>
     </div>
     <div class="hero__cta">
-      <a href="#friday" class="btn btn--primary">See the plan</a>
-      <a href="#vote" class="btn btn--ghost">Vote on Saturday →</a>
+      <a href="#friday" class="btn btn--primary">Ver o plano</a>
+      <a href="#votacao" class="btn btn--ghost">Votar no formulário →</a>
     </div>
   </div>
   <div class="hero__scroll">scroll ↓</div>
@@ -47,67 +48,83 @@
 <aside class="alert" id="reservations">
   <div class="alert__pulse">⚠️</div>
   <div class="alert__text">
-    <strong>BOOK IT OR LOSE IT.</strong>
-    Restaurants, rooftop dinners and the Saturday activity <u>all need reservations</u>.
-    We have to <strong>decide &amp; book in advance</strong> — the best spots sell out on weekends.
+    <strong>RESERVA OU FICAS DE FORA.</strong>
+    Restaurantes, jantares em rooftop e a atividade de sábado <u>precisam todos de reserva</u>.
+    Temos de <strong>decidir e reservar com antecedência</strong>, os melhores sítios esgotam ao fim de semana.
   </div>
 </aside>
+
+<!-- ============ VOTAÇÃO ============ -->
+<section class="votecta" id="votacao">
+  <h2 class="block__title">🗳️ A Votação</h2>
+  <p class="block__lead">A votação é toda num único formulário do Google. Vê a informação aqui no site, depois carrega em <strong>Votar</strong> em qualquer secção para abrir o formulário e dar a tua opinião sobre tudo: almoço de sexta, rooftops, brunch, atividade de sábado, jantar que vira festa e as t-shirts.</p>
+  <div class="vote-cta">
+    <a class="btn-vote btn-vote--big" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Abrir o formulário de votação</a>
+  </div>
+  <p class="block__lead muted" style="margin-top:18px">É um só formulário e cobre todos os temas. Quanto mais cedo votares, mais cedo reservamos.</p>
+</section>
 
 <!-- ============ FRIDAY ============ -->
 <section class="day" id="friday">
   <div class="day__head">
-    <span class="day__badge">DAY 01</span>
-    <h2 class="day__title">FRIDAY</h2>
-    <p class="day__tag">Arrive · explore · rooftop · bars</p>
+    <span class="day__badge">DIA 01</span>
+    <h2 class="day__title">SEXTA</h2>
+    <p class="day__tag">Chegar · explorar · rooftop · bares</p>
   </div>
 
   <!-- Timeline -->
   <ol class="timeline">
     <li class="tl">
-      <span class="tl__time">🕐 Lunch</span>
-      <h3>Land &amp; feast in the centre</h3>
-      <p>Everyone who's arrived meets for lunch in the city centre. Classic Madrid — a bocadillo de calamares by Plaza Mayor, graze at the market, or a lively Cava Baja taberna.</p>
+      <span class="tl__time">🕐 Almoço</span>
+      <h3>Aterrar e comer no centro</h3>
+      <p>Quem já chegou junta-se para almoçar no centro da cidade. Madrid clássica: um bocadillo de calamares ao pé da Plaza Mayor, petiscar no mercado, ou uma taberna animada na Cava Baja.</p>
       <div class="cards cards--mini" data-render="lunch"></div>
+      <div class="vote-cta">
+        <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar no sítio do almoço</a>
+      </div>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🎒 Drop bags</span>
-      <h3>Hands-free with Bounce</h3>
-      <p>Don't drag backpacks around all day. <strong>Bounce</strong> is "Uber for luggage" — leave your bags at a shop/locker around the city and grab them later. (Or just drop them at the accommodation.)</p>
+      <span class="tl__time">🎒 Largar a bagagem</span>
+      <h3>Mãos livres com a Bounce</h3>
+      <p>Não andes com mochilas às costas o dia todo. A <strong>Bounce</strong> é o "Uber para a bagagem": deixas as malas numa loja/cacifo pela cidade e vais buscá-las mais tarde. (Ou então deixa tudo no alojamento.)</p>
       <div class="cards cards--mini" data-render="luggage"></div>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🚶 Afternoon</span>
-      <h3>Walk the classics + cañas</h3>
-      <p>Puerta del Sol → Plaza Mayor → Gran Vía → Malasaña. Soak up the city and stop for cold <em>cañas</em> along the way. No rush — you're warming up.</p>
+      <span class="tl__time">🚶 Tarde</span>
+      <h3>Voltinha pelos clássicos + cañas</h3>
+      <p>Puerta del Sol → Plaza Mayor → Gran Vía → Malasaña. Apanha a cidade e para por umas <em>cañas</em> geladas pelo caminho. Sem pressas, isto é só o aquecimento.</p>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🌇 Evening</span>
-      <h3>Rooftop dinner at sunset</h3>
-      <p>Dinner up high, drinks as the sun drops, stay as long as it's good. <strong>Our Friday pick: Ginkgo Sky Bar</strong> — best sunset + a live DJ every Friday. Three top options below 👇</p>
+      <span class="tl__time">🌇 Fim de tarde</span>
+      <h3>Jantar no rooftop ao pôr do sol</h3>
+      <p>Jantar lá no alto, copos enquanto o sol cai, ficamos enquanto estiver bom. <strong>A nossa escolha de sexta: Ginkgo Sky Bar</strong>, o melhor pôr do sol e DJ ao vivo todas as sextas. Três opções de topo já a seguir 👇</p>
     </li>
   </ol>
 
   <!-- Rooftops -->
   <div class="block">
-    <h3 class="block__title">🌆 The Rooftops</h3>
-    <p class="block__lead">At least 3 to choose from — all take dinner reservations. Book early on a Friday.</p>
+    <h3 class="block__title">🌆 Os Rooftops</h3>
+    <p class="block__lead">Pelo menos 3 à escolha, todos aceitam reserva de jantar. Reserva cedo numa sexta. O plano da noite é: copos primeiro, depois jantar e festa a seguir. As etiquetas dizem quais são mais animados (música/DJ, fluem para a noite) e quais são mais de vista e tranquilidade.</p>
     <div class="cards" data-render="rooftops"></div>
+    <div class="vote-cta">
+      <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar no rooftop de sexta</a>
+    </div>
   </div>
 
   <!-- Nightlife zones -->
   <div class="block">
-    <h3 class="block__title">🍸 Then: into the night</h3>
-    <p class="block__lead">After the rooftop, hit the bars. Madrid's nightlife is about the <em>zone</em> — here are the best, with a couple of standout bars in each.</p>
+    <h3 class="block__title">🍸 Depois: rumo à noite</h3>
+    <p class="block__lead">Depois do rooftop, é dar aos bares. A noite de Madrid é sobre a <em>zona</em>: aqui ficam as melhores, com um ou dois bares de destaque em cada. <strong>São apenas sugestões.</strong></p>
     <div class="cards cards--zones" data-render="zones"></div>
   </div>
 
   <!-- Special bars -->
   <div class="block">
-    <h3 class="block__title">🕵️ Worth a special detour</h3>
-    <p class="block__lead">Three bars with a story — a speakeasy with a password, a theatrical cocktail temple, and a retro late-night classic.</p>
+    <h3 class="block__title">🕵️ Vale mesmo o desvio</h3>
+    <p class="block__lead">Três bares com história, cada um com o seu truque. Explicados a seguir, para perceberes logo a piada.</p>
     <div class="cards" data-render="specialBars"></div>
   </div>
 </section>
@@ -115,115 +132,185 @@
 <!-- ============ SATURDAY ============ -->
 <section class="day day--alt" id="saturday">
   <div class="day__head">
-    <span class="day__badge">DAY 02</span>
-    <h2 class="day__title">SATURDAY</h2>
-    <p class="day__tag">Recover · activity · rooftop · dinner-club · clubs</p>
+    <span class="day__badge">DIA 02</span>
+    <h2 class="day__title">SÁBADO</h2>
+    <p class="day__tag">Recuperar · atividade · rooftop · jantar-festa · discotecas</p>
   </div>
 
   <ol class="timeline">
     <li class="tl">
-      <span class="tl__time">🥑 Late morning</span>
-      <h3>The hungover brunch</h3>
-      <p>Fiber, energy, and a <em>lot</em> of water. Recover properly so we're ready for the afternoon. Plant bowls, eggs, juices — these spots have it.</p>
+      <span class="tl__time">🥑 Fim da manhã</span>
+      <h3>O brunch da ressaca</h3>
+      <p>Isto é sobre recuperar a sério depois da noite de sexta: fibra, energia e <em>muita</em> água. Nada de comida de plástico, que já não somos uns miúdos (já somos uns velhos, haha). Bowls de vegetais, ovos e sumos, para ficarmos prontos para a tarde.</p>
       <div class="cards cards--mini" data-render="brunch"></div>
+      <div class="vote-cta">
+        <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar no sítio do brunch</a>
+      </div>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🎯 Afternoon</span>
-      <h3>The big activity — you vote 👇</h3>
-      <p>Three options on the table. Everyone votes, majority wins, then we book it. Scroll to the voting booth below.</p>
+      <span class="tl__time">🎯 Tarde</span>
+      <h3>A grande atividade, vota 👇</h3>
+      <p>Três opções em cima da mesa. Cada uma tem prós e contras, por isso lê com atenção e vota informado. As opções estão já a seguir.</p>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🌇 After</span>
-      <h3>Back to a rooftop</h3>
-      <p>Wind down the afternoon with a drink up high again (any of the <a href="#friday">Friday rooftops</a> works). Then home to change for the night.</p>
+      <span class="tl__time">🌇 Depois</span>
+      <h3>Outra vez ao rooftop</h3>
+      <p>Acalmar a tarde com um copo lá no alto (qualquer um dos <a href="#friday">rooftops de sexta</a> serve). Depois para casa, mudar de roupa para a noite.</p>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🍽️ 22:00–23:00</span>
-      <h3>Late dinner that becomes a party</h3>
-      <p>A restaurant that turns into a club. Eat late, then the lights drop and the DJ starts. Options &amp; honest takes below.</p>
+      <span class="tl__time">🍽️ 22:00 a 23:00</span>
+      <h3>Jantar que vira festa</h3>
+      <p>Um sítio para jantar tarde que depois anima. Comemos com calma e, à medida que a noite avança, entra a música. Opções e opiniões honestas a seguir.</p>
     </li>
 
     <li class="tl">
-      <span class="tl__time">🪩 Late</span>
-      <h3>Club time — for whoever's still standing</h3>
-      <p>Last ones standing pick a club and close Madrid. Full breakdown with pros &amp; cons below.</p>
+      <span class="tl__time">🪩 Madrugada</span>
+      <h3>Hora da discoteca, para quem aguentar</h3>
+      <p>Os últimos a aguentar escolhem uma discoteca e fecham Madrid. Análise completa com prós e contras mais abaixo.</p>
     </li>
   </ol>
 
-  <!-- VOTING -->
-  <div class="block" id="vote">
-    <h3 class="block__title">🗳️ The Voting Booth</h3>
-    <p class="block__lead">Saturday afternoon activity. Tap your pick — results update live. <span class="muted">(Votes save on this device; share the link &amp; tally in the group chat.)</span></p>
-    <div class="vote" id="voteBox" data-render="activities"></div>
-    <button class="vote__reset" id="voteReset">↺ reset my vote</button>
+  <!-- ACTIVITY OPTIONS -->
+  <div class="block" id="atividade">
+    <h3 class="block__title">🎯 A atividade de sábado</h3>
+    <p class="block__lead">Cada opção tem prós e contras, por isso vota informado. Repara sobretudo no <strong>tempo de viagem</strong> e na <strong>duração</strong>: os karts ficam longe da cidade (viagem grande) e tendem a comer a tarde toda, enquanto a beer bike e o craft beer tour ficam na cidade e são mais curtos. Vê os trade-offs em cada cartão.</p>
+    <div class="cards" data-render="activities"></div>
+    <div class="vote-cta">
+      <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar na atividade de sábado</a>
+    </div>
   </div>
 
   <!-- Dinner clubs -->
   <div class="block">
-    <h3 class="block__title">🍽️🪩 Dinner &amp; Dance</h3>
-    <p class="block__lead">Late dinner → DJ in the same place. Each explained honestly — including where the food is <em>not</em> the point.</p>
+    <h3 class="block__title">🍽️🪩 Jantar que vira festa</h3>
+    <p class="block__lead">Jantar tardio → música no mesmo sítio. Cada um explicado com honestidade, incluindo onde a comida <em>não</em> é o ponto forte.</p>
     <div class="cards" data-render="dinnerClubs"></div>
+    <div class="vote-cta">
+      <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar no jantar</a>
+    </div>
   </div>
 </section>
 
 <!-- ============ CLUBS ============ -->
 <section class="day" id="clubs">
   <div class="day__head">
-    <span class="day__badge">FINAL BOSS</span>
-    <h2 class="day__title">THE CLUBS</h2>
-    <p class="day__tag">Electronic / underground &amp; mainstream / mixed</p>
+    <span class="day__badge">CHEFE FINAL</span>
+    <h2 class="day__title">AS DISCOTECAS</h2>
+    <p class="day__tag">Eletrónica / underground e mainstream / mistas</p>
   </div>
   <div class="block">
+    <p class="block__lead">São só sugestões, logo decidimos no próprio dia consoante a energia do grupo.</p>
     <div class="filter" id="clubFilter">
-      <button class="filter__btn is-active" data-cat="all">All</button>
-      <button class="filter__btn" data-cat="Electronic / Underground">Electronic / Underground</button>
-      <button class="filter__btn" data-cat="Mainstream / Mixed">Mainstream / Mixed</button>
+      <button class="filter__btn is-active" data-cat="all">Todas</button>
+      <button class="filter__btn" data-cat="Electronic / Underground">Eletrónica / Underground</button>
+      <button class="filter__btn" data-cat="Mainstream / Mixed">Mainstream / Mistas</button>
     </div>
     <div class="cards" data-render="clubs"></div>
   </div>
 </section>
 
+<!-- ============ T-SHIRTS ============ -->
+<section class="day day--alt tees" id="tshirts">
+  <div class="day__head">
+    <span class="day__badge">DRESS CODE</span>
+    <h2 class="day__title">AS T-SHIRTS</h2>
+    <p class="day__tag">O uniforme oficial da despedida</p>
+  </div>
+
+  <div class="block">
+    <p class="block__lead">A ideia é simples e já foi testada noutras despedidas: deixa o fim de semana mais dinâmico e divertido. Há uma t-shirt para o noivo e outra para o resto do grupo.</p>
+
+    <div class="tees__grid">
+      <article class="card">
+        <span class="card__tag">O NOIVO</span>
+        <div class="card__name">Henrique, o homem do momento</div>
+        <p class="card__blurb">O noivo veste uma t-shirt com uma <strong>lista de desafios</strong> impressa à frente, para ir completando ao longo dos dois dias. É o que mantém o fim de semana dinâmico e divertido. O organizador já fez isto antes e correu muito bem.</p>
+        <figure class="tees__fig">
+          <img src="assets/img/groom-checklist.jpeg" alt="Mockup de t-shirt do noivo com uma checklist de desafios da despedida" loading="lazy" />
+          <figcaption>Exemplo: t-shirt do noivo com a checklist de desafios.</figcaption>
+        </figure>
+      </article>
+
+      <article class="card">
+        <span class="card__tag">O GRUPO</span>
+        <div class="card__name">Toda a malta de preto</div>
+        <p class="card__blurb">Todos os outros vestem uma t-shirt preta com a <strong>cara do noivo</strong> impressa à frente (estilo mugshot divertido, o focinho dele). Nas costas, ao estilo de camisola de futebol, um número com o papel de cada um por baixo: padrinho, irmão, best man, etc.</p>
+        <figure class="tees__fig">
+          <img src="assets/img/crew-shirts.jpeg" alt="Mockup de t-shirts do grupo: cara do noivo à frente e número estilo camisola de futebol nas costas" loading="lazy" />
+          <figcaption>Exemplo: cara do noivo à frente, número e papel nas costas.</figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <div class="tees__gallery">
+      <figure class="tees__fig">
+        <img src="assets/img/game-over.jpeg" alt="Mockup de t-shirt de despedida em tom cor-de-rosa, referência de estilo" loading="lazy" />
+        <figcaption>Mais referências de estilo de outras despedidas.</figcaption>
+      </figure>
+      <figure class="tees__fig">
+        <img src="assets/img/crew-irl.jpeg" alt="Foto real de dois amigos com t-shirts de despedida personalizadas" loading="lazy" />
+        <figcaption>E como fica na vida real.</figcaption>
+      </figure>
+    </div>
+
+    <div class="info__grid" style="margin-top:34px">
+      <div class="info__card">
+        <h3>📸 Alinhas? É simples</h3>
+        <p>Se estás dentro, <strong>envias uma foto tua ao organizador</strong> e ele trata do resto: impressão e personalização (o teu número e o teu papel). Tu só tens de aparecer e vestir.</p>
+      </div>
+      <div class="info__card">
+        <h3>👕 Pelo menos 3 por pessoa</h3>
+        <p>Por causa do <strong>calor</strong> e como vamos andar com as t-shirts de dia e de noite, o recomendado são <strong>pelo menos 3 t-shirts por pessoa</strong>, para ires trocando ao longo do fim de semana.</p>
+      </div>
+    </div>
+
+    <div class="vote-cta">
+      <a class="btn-vote" href="__GOOGLE_FORM_URL__" target="_blank" rel="noopener">🗳️ Votar na ideia das t-shirts (sim/não)</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ INFO ============ -->
 <section class="info" id="info">
-  <h2 class="block__title">📌 Before we go</h2>
+  <h2 class="block__title">📌 Antes de irmos</h2>
   <div class="info__grid">
     <div class="info__card">
-      <h3>📅 Book in advance</h3>
-      <p>Rooftop dinners, the dinner-clubs and the Saturday activity <strong>all need reservations</strong>. Decide the shortlist, then lock it in — weekends fill up.</p>
+      <h3>📅 Reservar com antecedência</h3>
+      <p>Jantares em rooftop, os jantares-que-viram-festa e a atividade de sábado <strong>precisam todos de reserva</strong>. Decidimos a shortlist e fechamos, que os fins de semana enchem.</p>
     </div>
     <div class="info__card">
       <h3>👔 Dress codes</h3>
-      <p>Kapital, Barceló &amp; Oh My Club enforce smart/elegant doors (collared shirt, no sneakers/sportswear). Dress sharp or get turned away.</p>
+      <p>Kapital, Barceló e Oh My Club têm porta exigente (camisa de colarinho, sem ténis/fato de treino). Veste-te a rigor ou ficas à porta.</p>
     </div>
     <div class="info__card">
-      <h3>🚌 Fabrik is far</h3>
-      <p>~20 km out. Shuttle coaches leave Callao from ~midnight. If you go, you commit to the night — no quick exit.</p>
+      <h3>🚌 Fabrik é longe</h3>
+      <p>~20 km fora. Os autocarros-shuttle saem de Callao a partir da ~meia-noite. Se fores, comprometes-te com a noite, não há saída rápida.</p>
     </div>
     <div class="info__card">
-      <h3>🔞 Check the door rules</h3>
-      <p>Oh My Club is <strong>25+</strong> on Sat/Sun. Bad Company 1920 needs the current password from their Instagram. Verify before you trek over.</p>
+      <h3>🔞 Confirma as regras da porta</h3>
+      <p>O Oh My Club é <strong>25+</strong> ao sáb/dom. O Bad Company 1920 precisa da password atual do Instagram deles. Confirma antes de ires até lá.</p>
     </div>
     <div class="info__card">
-      <h3>🔗 Every link verified</h3>
-      <p>Official sites, Google Maps pins and Instagram handles were all checked (June 2026). Tap the buttons on any card to go straight to the source.</p>
+      <h3>🔗 Todos os links verificados</h3>
+      <p>Sites oficiais, pins do Google Maps e handles de Instagram foram todos verificados (junho de 2026). Carrega nos botões de cada cartão para ires direto à fonte.</p>
     </div>
     <div class="info__card">
-      <h3>🤖 AI-curated</h3>
-      <p>This plan was researched, fact-checked and built with AI from the crew's source notes — then web-verified beyond them. See the repo for the full methodology.</p>
+      <h3>🗳️ Votação no formulário</h3>
+      <p>A votação é toda <strong>num único formulário do Google</strong>. Carrega em qualquer botão "Votar" do site para o abrir. Um só formulário cobre todos os temas.</p>
     </div>
   </div>
 </section>
 
 <footer class="footer">
   <p class="footer__big">VAMOS, HENRIQUE 🍾</p>
-  <p class="footer__small">AI-native bachelor-party plan · Madrid · all links verified June 2026</p>
+  <p class="footer__small">Plano da despedida · Madrid · links verificados em junho de 2026</p>
   <p class="footer__links" id="footerLinks"></p>
 </footer>
 
-<script src="data.js"></script>
-<script src="script.js"></script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
 </body>
 </html>
