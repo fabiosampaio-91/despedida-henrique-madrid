@@ -195,6 +195,9 @@ u{text-decoration-color:var(--gold);text-underline-offset:3px}
 .tees__fig img{width:100%;max-height:440px;object-fit:contain;border-radius:14px;
   background:#fff;border:1px solid var(--line)}
 .tees__fig figcaption{font-size:12px;color:var(--muted);text-align:center}
+.tees__challenges{margin:2px 0 4px;padding-left:1.3em;display:flex;flex-direction:column;gap:5px}
+.tees__challenges li{font-size:13px;color:#e6d8f5}
+.tees__challenges li::marker{color:var(--gold);font-weight:800}
 
 /* ---------- FILTER ---------- */
 .filter{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:30px}

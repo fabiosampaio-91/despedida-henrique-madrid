@@ -37,7 +37,8 @@ Cada tema (almoço, rooftops, brunch, atividade, jantar, t-shirts) tem um botão
 
 ### URL do formulário
 
-O URL está como placeholder `__GOOGLE_FORM_URL__`. Quando o link real existir, faz find/replace do placeholder em todo o repo (ver README.md). Aparece em `index.html`.
+Já está ligado: https://docs.google.com/forms/d/1yNAjBl7Az0UauBD_C5tCnVdWYDxGEhOss45QikAkNM4/viewform
+Para trocar, faz find/replace do URL em `index.html` (botões "Votar" e secção Votação).
 
 ## Como atualizar
 

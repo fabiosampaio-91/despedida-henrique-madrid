@@ -11,21 +11,13 @@ Site de página única (em português de Portugal) para a **despedida de solteir
 
 O site é estático (GitHub Pages), por isso **não há votação dentro do site**: não dá para partilhar votos entre pessoas. A votação é toda feita **num único formulário do Google**, ligado a partir de cada secção com um botão **"Votar"**.
 
-Temas que vão a votação: almoço de sexta, rooftops, brunch, atividade de sábado, jantar que vira festa e as t-shirts.
+Temas que vão a votação: rooftops, brunch, atividade de sábado, jantar que vira festa e as t-shirts. (O almoço de sexta não vai a votação, é só uma sugestão.)
 
-### ⚠️ Trocar o URL do formulário
+### URL do formulário
 
-Neste momento o URL do formulário é um **placeholder**: `__GOOGLE_FORM_URL__`. Para o ativar, faz find/replace deste texto pelo link real do formulário em todo o repositório:
+O formulário já está ligado: https://docs.google.com/forms/d/1yNAjBl7Az0UauBD_C5tCnVdWYDxGEhOss45QikAkNM4/viewform
 
-```bash
-# do raiz do repositório, substitui o placeholder pelo URL real
-grep -rl '__GOOGLE_FORM_URL__' . --exclude-dir=.git
-# depois substitui (exemplo com sed; confirma o link primeiro)
-LC_ALL=C find . -path ./.git -prune -o -type f \( -name '*.html' -o -name '*.js' -o -name '*.md' \) -print \
-  | xargs sed -i '' 's#__GOOGLE_FORM_URL__#https://docs.google.com/forms/d/e/SEU_ID/viewform#g'
-```
-
-Aparece em [`index.html`](index.html) (botões "Votar" e a secção Votação). Depois de substituir, faz commit e push.
+Para trocar, faz find/replace do URL em [`index.html`](index.html) (aparece nos botões "Votar" e na secção Votação) e faz commit e push.
 
 ## 🛠️ Estrutura
 
